@@ -16,6 +16,5 @@ from django.contrib import admin
 from django.urls import path
 from week3 import views
 urlpatterns = [
-    path('week3/', views.week3_assignment),
     path('admin/', admin.site.urls),
 ]
